@@ -20,7 +20,6 @@ struct Film: Codable {
     var results:[MoviesData]
 }
 
-
 struct ImageInfo: Codable {
     var base_url:String?
     var poster_sizes:[ImageInfo]
